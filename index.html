@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,90 @@
     <title>Fruit Brust</title>
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 
+    <!-- tailwind and Daisy UI configure -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 
 
 </head>
+
 <body>
     <header>
+      <!-- nav bar start -->
+
+      <div class="navbar bg-[#F85559;] rounded-3xl">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="navbar-center lg:flex">
+                <ul class="menu menu-horizontal px-1 text-white">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar-center">
+            <img src="./images/logo.png" alt="">
+            <p class="text-4xl text-white font-semibold">Fruit Brust</p> 
+        </div>
+
+
+        <div class="navbar-end flex relative ">
+
+            <div class="relative mr-2">
+                <input type="text" placeholder="Search Here"
+                    class="input input-bordered w-96 md:w-auto rounded-3xl  " />
+            </div>
+
+            <div class="absolute -mr-3">
+                <button class="btn btn-ghost btn-circle mr-3 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+    </div>
+    <!-- nav end -->
 
     </header>
     <main>
+        
+      
+
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
