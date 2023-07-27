@@ -1,0 +1,11 @@
+.banner-main{
+position: relative;
+
+}
+
+.fruits{
+  position: absolute;  
+  bottom: -18%;
+  left: 20%;
+
+}
